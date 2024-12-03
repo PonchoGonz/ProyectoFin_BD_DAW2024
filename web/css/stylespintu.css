@@ -1,0 +1,148 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2 dic 2024, 14:14:18
+    Author     : gonza
+*/
+body{
+                background-image: url("https://images.unsplash.com/photo-1491598601902-712af90cc6ee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                margin:0;
+
+            }
+            .logoutButton{
+                border-radius: 15px;
+                border: 2px solid #990000;
+                padding: 5px;
+                margin-left: auto;
+                background-color: red;
+                color: white;
+            }
+            .datos{
+
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                height: 100px;
+
+            }
+
+            .navbar{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .navbar-collapse{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                
+            }
+            .logoutButton:hover{
+                background-color: #cc0000  !important; /* Rojo más brillante */
+                border: 2px solid #ff3333 !important; /* Borde más brillante */
+                color: white !important; /* Mantener el texto blanco */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important; /* Sombra para efecto de elevación */
+            }
+            footer.bg-primary{
+                background-color: gray !important;
+
+            }
+            .email-icon{
+                position: absolute;
+                margin-left: -5px;
+                margin-top: 2px;
+
+
+
+
+
+                height: 20px;
+                width: 20px;
+            }
+            .email-text{
+                position: relative;
+                padding-left: 1px;
+            }
+            .social-icon{
+                margin-left: 10px;
+            }
+            a img {
+                outline: none;
+                border: none;
+            }
+            a:focus{
+                outline: none;
+            }
+            a{
+                text-decoration: none;
+            }
+            .contacto{
+                margin-top: 20px;
+            }
+            .navbar-custom{
+                background-color: gray;
+            }
+            .navbar-custom .nav-link{
+                color: white !important;
+            }
+            .navbar-custom .nav-link:hover{
+                color: #ccc !important;
+            }
+            .table-striped{
+                margin-top: 40px;
+
+            }
+            table{
+                width: 100%;
+            }
+            .container-fluid{
+                padding: 0;
+            }
+            .centro{
+                margin: 0;
+                padding: 0;
+
+                height: 100vh;
+                align-content: center;
+                justify-items: center;
+            }
+            header{
+                margin: 0;
+                padding: 0;
+
+            }
+            .container{
+                flex-wrap: wrap;
+                overflow-x: auto;
+            }
+            .table{
+                border-collapse: collapse;
+            }
+            header{
+                width: auto;
+                height: auto;
+                margin: 0;
+                padding: 0;
+            }
+            footer{
+                width: 100%
+            }
+            .botonAgregar{
+                justify-content: center;
+                background: red;
+            }
+            .btn-info{
+                
+               
+            }
+            .botones-container {
+    display: flex;
+    
+    align-items: flex-end;
+}
